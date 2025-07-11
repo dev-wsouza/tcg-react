@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # tcg-react
 TCG utilizando React
@@ -73,7 +72,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# tcg-react
-TCG utilizando React
->>>>>>> fdcea501e377e07daffdcf7928b261787bf46891
