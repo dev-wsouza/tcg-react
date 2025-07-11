@@ -9,8 +9,8 @@ type MessageProps = {
 
 export const MessagePanel = ({ messageText, messageHeader, imageUrl }: MessageProps) => {
     return (
-        <Card>
-            <Flex direction={'column'}>
+        <Card >
+            <Flex direction={'column'} gap='2' align="center" style={{ padding: '10px' }}>
                 {imageUrl ? <img src={imageUrl} alt="Message Image" style={{maxHeight: '300px', maxWidth: 'auto'}}/> : null}
                 <Text size="4">{messageHeader}</Text>
                 <Text size="1">{messageText}</Text>
