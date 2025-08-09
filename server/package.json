@@ -1,0 +1,29 @@
+{
+  "name": "tcgserver",
+  "version": "1.0.0",
+  "description": "server of the game.",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "tcg",
+    "server"
+  ],
+  "author": "Wemerson Souza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
